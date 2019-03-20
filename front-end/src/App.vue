@@ -24,7 +24,7 @@ export default {
     f(i,j) {
       this.$set(this.t[i],j,this.next)
       this.next=="X"?this.next="O":this.next="X"
-      console.log(i,j)
+      //console.log(i,j)
     }
   } 
 }
